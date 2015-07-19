@@ -12,6 +12,12 @@ nav a:link {
         }
         nav ul {
             list-style-type: none;}
+footer{
+    text-align: center;
+    color: black;
+}
+footer ul li{
+    display: inline-block;}
 
 
 
@@ -19,21 +25,6 @@ nav a:link {
 
  @media only screen and (max-width: 480px) {
      .main {color:aliceblue; font-size: 75%; }
-     nav ul {
-                text-align: center;
-                padding: 0;
-                margin: 0;
-            }
-            nav li {
-                display: block;
-                margin: 0;
-                padding: 0.3em;
-                border-bottom: 2px;
-                border-bottom-style: solid;
-                border-bottom-color: #330000;
-            }
-            nav a {
-                display: block;
-            }
+   
      .paragr {font-size: 75%;}
  }
